@@ -1,3 +1,71 @@
+GIT
+  remote: https://github.com/spree-contrib/spree_i18n.git
+  revision: dadbbd9db887cca6d76c36a0bb1b39108902aa54
+  specs:
+    spree_i18n (3.3.2)
+      deface (~> 1.0)
+      i18n_data
+      kaminari-i18n
+      rails-i18n
+      routing-filter
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_multi_currency.git
+  revision: d3fc10e1da81dd5b66cfb149b34284bfcf4a4d3c
+  specs:
+    spree_multi_currency (3.4.0)
+      deface (~> 1.0)
+      spree_backend (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_related_products.git
+  revision: 4fab86db9e45197b886a45a4e578baf7d7365c05
+  specs:
+    spree_related_products (3.3.0)
+      deface (~> 1.0)
+      spree_backend (>= 3.1.0, < 5.0)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_sitemap.git
+  revision: 20a0afb3ff6255fcdd7ea8fa7e8a5ee6f9fc6398
+  specs:
+    spree_sitemap (3.3.1)
+      sitemap_generator
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_social.git
+  revision: 824dadbe9fa81ad8d4287fb0e82161db17615d14
+  specs:
+    spree_social (3.3.2)
+      deface (~> 1.0)
+      oa-core
+      omniauth
+      omniauth-amazon
+      omniauth-facebook
+      omniauth-github
+      omniauth-google-oauth2
+      omniauth-twitter
+      spree_auth_devise (>= 3.1.0, < 5.0)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_wishlist.git
+  revision: 71d84de8d8bcbb1b8423bba9134fc0765d44fd6e
+  specs:
+    spree_wishlist (3.0.1)
+      deface (~> 1.0)
+      spree_api (>= 3.1.0, < 5.0)
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,15 +138,18 @@ GEM
     awesome_nested_set (3.2.0)
       activerecord (>= 4.0.0, < 7.0)
     bcrypt (3.1.13)
+    bcrypt (3.1.13-java)
     bindex (0.8.1)
     bootsnap (1.4.6)
+      msgpack (~> 1.0)
+    bootsnap (1.4.6-java)
       msgpack (~> 1.0)
     bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
     builder (3.2.4)
-    byebug (11.1.2)
+    byebug (11.1.3)
     camertron-eprun (1.1.1)
     cancancan (3.1.0)
     canonical-rails (0.2.8)
@@ -107,19 +178,26 @@ GEM
       railties (>= 5)
     erubi (1.9.0)
     execjs (2.7.0)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
     ffaker (2.14.0)
     ffi (1.12.2)
+    ffi (1.12.2-java)
+    ffi (1.12.2-x64-mingw32)
+    ffi (1.12.2-x86-mingw32)
     friendly_id (5.3.0)
       activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     glyphicons (1.0.2)
+    hashie (4.1.0)
     highline (2.0.3)
     htmlentities (4.3.4)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
+    i18n_data (0.10.0)
     image_processing (1.10.3)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
@@ -134,6 +212,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
+    jwt (2.2.1)
     kaminari (1.1.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.1.1)
@@ -146,6 +225,9 @@ GEM
       activerecord
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
+    kaminari-i18n (0.5.0)
+      kaminari
+      rails
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -168,13 +250,59 @@ GEM
     money (6.13.7)
       i18n (>= 0.6.4, <= 2)
     msgpack (1.3.3)
+    msgpack (1.3.3-java)
+    msgpack (1.3.3-x64-mingw32)
+    msgpack (1.3.3-x86-mingw32)
+    multi_json (1.14.1)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
     nio4r (2.5.2)
+    nio4r (2.5.2-java)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-java)
+    nokogiri (1.10.9-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-x86-mingw32)
+      mini_portile2 (~> 2.4.0)
+    oa-core (0.3.2)
+    oauth (0.5.4)
+    oauth2 (1.4.4)
+      faraday (>= 0.8, < 2.0)
+      jwt (>= 1.0, < 3.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 3)
+    omniauth (1.9.1)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
+    omniauth-amazon (1.0.1)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.1)
+    omniauth-facebook (6.0.0)
+      omniauth-oauth2 (~> 1.2)
+    omniauth-github (1.4.0)
+      omniauth (~> 1.5)
+      omniauth-oauth2 (>= 1.4.0, < 2.0)
+    omniauth-google-oauth2 (0.8.0)
+      jwt (>= 2.0)
+      omniauth (>= 1.1.1)
+      omniauth-oauth2 (>= 1.6)
+    omniauth-oauth (1.1.0)
+      oauth
+      omniauth (~> 1.0)
+    omniauth-oauth2 (1.6.0)
+      oauth2 (~> 1.1)
+      omniauth (~> 1.9)
+    omniauth-twitter (1.4.0)
+      omniauth-oauth (~> 1.1)
+      rack
     orm_adapter (0.5.0)
     paranoia (2.4.2)
       activerecord (>= 4.0, < 6.1)
     pg (1.2.3)
+    pg (1.2.3-x64-mingw32)
+    pg (1.2.3-x86-mingw32)
     polyamorous (2.3.2)
       activerecord (>= 5.2.1)
     polyglot (0.3.5)
@@ -189,7 +317,9 @@ GEM
     public_suffix (4.0.4)
     puma (4.3.3)
       nio4r (~> 2.0)
-    rabl (0.14.2)
+    puma (4.3.3-java)
+      nio4r (~> 2.0)
+    rabl (0.14.3)
       activesupport (>= 2.3.14)
     rack (2.2.2)
     rack-proxy (0.6.5)
@@ -216,6 +346,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
+    rails-i18n (6.0.0)
+      i18n (>= 0.7, < 2)
+      railties (>= 6.0.0, < 7)
     railties (6.0.2.2)
       actionpack (= 6.0.2.2)
       activesupport (= 6.0.2.2)
@@ -235,12 +368,17 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    routing-filter (0.6.3)
+      actionpack (>= 4.2)
+      activesupport (>= 4.2)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     ruby_dep (1.5.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.3.0)
+      ffi (~> 1.9)
+    sassc (2.3.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
@@ -250,6 +388,8 @@ GEM
       tilt
     select2-rails (3.5.10)
       thor (~> 0.14)
+    sitemap_generator (6.1.0)
+      builder (~> 3.0)
     spree (4.1.5)
       spree_api (= 4.1.5)
       spree_backend (= 4.1.5)
@@ -341,6 +481,7 @@ GEM
     stringex (2.8.5)
     thor (0.20.3)
     thread_safe (0.3.6)
+    thread_safe (0.3.6-java)
     tilt (2.0.10)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
@@ -351,6 +492,8 @@ GEM
       tzinfo
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2019.3)
+      tzinfo (>= 1.0.0)
     warden (1.2.8)
       rack (>= 2.0.6)
     web-console (4.0.1)
@@ -364,11 +507,17 @@ GEM
       railties (>= 4.2)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
+    websocket-driver (0.7.1-java)
+      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
     zeitwerk (2.3.0)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -382,6 +531,12 @@ DEPENDENCIES
   spree (~> 4.1)
   spree_auth_devise (~> 4.1)
   spree_gateway (~> 3.7)
+  spree_i18n!
+  spree_multi_currency!
+  spree_related_products!
+  spree_sitemap!
+  spree_social!
+  spree_wishlist!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
