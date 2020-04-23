@@ -50,3 +50,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
+# Extensions
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist'
+gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
+gem 'spree_social', github: 'spree-contrib/spree_social'
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
+gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed'
+gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
