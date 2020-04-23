@@ -1,6 +1,7 @@
 FROM ruby:2.7.0-alpine
 
 RUN apk add --no-cache --update build-base bash \
+    git \
     postgresql-dev \
     nodejs \
     yarn \
