@@ -397,9 +397,9 @@ es:
       allocated: Añadido
       apply: Aplicar
       remove: Eliminar
-      applicable_amount: "<strong>%{amount}</strong> en crédito de tienda será aplicado a esta orden."
-      available_amount: "Tienes <strong>%{amount}</strong> en Crédito de Tienda disponible!"
-      remaining_amount: "Tienes <strong>%{amount}</strong> restante en el Crédito de Tienda de tu cuenta."
+      applicable_amount: <strong>%{amount}</strong> en crédito de tienda será aplicado a esta orden.
+      available_amount: Tienes <strong>%{amount}</strong> en Crédito de Tienda disponible!
+      remaining_amount: Tienes <strong>%{amount}</strong> restante en el Crédito de Tienda de tu cuenta.
       additional_payment_needed: Seleccione otro mñetodo de para los restantes <strong>%{amount}</strong>.
       errors:
         cannot_change_used_store_credit:  No puedes cambiar un crédito de tienda que actualmente ha sido utilizado
