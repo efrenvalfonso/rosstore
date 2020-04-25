@@ -217,33 +217,33 @@ es:
     created_by: Creado Por
     credited: Acreditado
     cvv: CVV
-    default_country_cannot_be_deleted: Default country cannot be deleted
-    default_currency: Default currency
-    deleted: Deleted
-    delete_from_taxon: Delete From Taxon
-    delivery_information: Delivery Information
+    default_country_cannot_be_deleted: El país por defecto no puede ser eliminado
+    default_currency: Mooneda por defecto
+    deleted: Eliminado
+    delete_from_taxon: Eliminar de Taxon
+    delivery_information: Información de entrega
     discontinued: Descontinuado
-    dont_have_account: No account?
+    dont_have_account: ¿No tienes cuenta?
     errors:
       messages:
-        blank: can't be blank
+        blank: no puede estar en blanco
       services:
         get_shipping_rates:
-          no_shipping_address: To generate Shipping Rates Order needs to have a Shipping Address
-          no_line_items: To generate Shipping Rates you need to add some Line Items to Order
-    error_user_destroy_with_orders: User associated with orders cannot be destroyed
-    expedited_exchanges_warning: "Any specified exchanges will ship to the customer immediately upon saving. The customer will be charged the full amount of the item if they do not return the original item within %{days_window} days."
-    expiration_date: Expiration Date
-    extensions_directory: Extensions Directory
-    existing_shipments: Existing shipments
-    follow_us: Follow us
-    generate_code: Generate coupon code
-    go_to_category: Go to category
-    go_to_facebook: Go to facebook
-    go_to_homepage: Go to Home Page
-    go_to_instagram: Go to instagram
-    go_to_twitter: Go to twitter
-    hide_from_subcategories_nav: Hide from subcategories navigation
+          no_shipping_address: Para generar Cargos de Envío de Orden necesita tener una Dirección de Envío
+          no_line_items: Para generar Cargos de Envío necesitas añadir algunos Elemenos del Carrito a la Orden
+    error_user_destroy_with_orders: El Usuario asociado con órdenes no puede ser destruido
+    expedited_exchanges_warning: Cualquier intercambio especificado se enviará al cliente inmediatamente después de guardar. Al cliente se le cobrará la cantidad completa del producto si no retornan el producto original en %{days_window} días.
+    expiration_date: Fecha de Expiración
+    extensions_directory: Directorio de Extensiones
+    existing_shipments: Envíos Existentes
+    follow_us: Síguenos
+    generate_code: Generar código de cupón
+    go_to_category: Ir a Categoría
+    go_to_facebook: Ir a Facebook
+    go_to_homepage: Ir a la Página Principal
+    go_to_instagram: Ir a Instagram
+    go_to_twitter: Ir a Twitter
+    hide_from_subcategories_nav: Ocultar de la navegación de subcagtegorías
     homepage:
       bestsellers: MÁS VENDIDOS
       fashion_trends: TENDENCIAS DE MODA
@@ -264,166 +264,166 @@ es:
       women: MUJER
     help_center: Centro de Ayuda
     i18n:
-      fields: Fields
-      only_incomplete: Only incomplete
-      only_complete: Only complete
-      select_locale: Select locale
-      show_only: Show only
-      supported_locales: Supported Locales
-      translations: Translations
-    in_stock: In Stock
-    insufficient_stock_item_quantity: Insufficient stock quantity available
-    issued_on: Issued On
-    loading_tree: Loading tree. Please wait…
-    log_in: Log in
-    log_in_to_continue: Log in to continue
-    logo_alt: Brand logo
-    mail_from_address: Mail from address
-    master_sku: Master SKU
+      fields: Campos
+      only_incomplete: Sólo incompletos
+      only_complete: Sólo completos
+      select_locale: Seleccionar idioma
+      show_only: Sólo mostrar
+      supported_locales: Idiomas Soportados
+      translations: Traducciones
+    in_stock: En Existencia
+    insufficient_stock_item_quantity: Cantidad de existencia disponible insuficiente
+    issued_on: Expedido En
+    loading_tree: Cargando árbol. Por favor espere…
+    log_in: Acceder
+    log_in_to_continue: Acceder para continuar
+    logo_alt: Logo de la marca
+    mail_from_address: Correo desde dirección
+    master_sku: SKU Máster
     mutable: Mutable
-    missing_return_authorization: ! 'Missing Return Authorization for %{item_name}.'
+    missing_return_authorization: ! 'No existe Autorización de Retorno para %{item_name}.'
     nav_bar:
-      close_menu: Close menu
-      go_to_previous_menu: Go to previous menu
-      log_in: LOG IN
-      log_out: LOG OUT
-      my_account: MY ACCOUNT
-      my_orders: MY ORDERS
-      show_menu: Show menu
-      show_search: Show search
-      show_user_menu: Show user menu
-      sign_up: SIGN UP
-    new_role: New Role
-    new_shipment_at_location: New shipment at location
-    new_store_credit: New Store Credit
-    new_store_credit_category: New Store Credit Category
-    no_address_given: No address given
-    no_available_date_set: No available date set
+      close_menu: Cerrar menú
+      go_to_previous_menu: Ir al menú anterior
+      log_in: ACCEDER
+      log_out: SALIR
+      my_account: MI CUENTA
+      my_orders: MIS ÓRDENES
+      show_menu: Mostrar menú
+      show_search: Mostrar búsqueda
+      show_user_menu: Mostrar menú de usuario
+      sign_up: REGISTRARSE
+    new_role: Nuevo Rol
+    new_shipment_at_location: Nueva ubicación de envío
+    new_store_credit: Nuevo Crédito de Tienda
+    new_store_credit_category: Nueva Categoría de Crédito de Tienda
+    no_address_given: No se ha proporcionado dirección
+    no_available_date_set: Conjunto de datos no disponible
     no_product_available:
-      for_this_quantity: Sorry, it looks like some products are not available in selected quantity.
-      opps: Oops!
-    user_not_found: User not found
-    number: Number
+      for_this_quantity: Lo sentimos, parece que algunos productos no están disponibles en las cantidades seleccionadas.
+      opps: ¡Oops!
+    user_not_found: Usuario no encontrado
+    number: Número
     ok: OK
-    order_line_items: Order Line Items
+    order_line_items: Elementos de la Orden
     order_mailer:
       subtotal: ! 'Subtotal:'
-      total: ! 'Order Total:'
-    order_success: Order placed successfully
-    order_success_explain: Your order information will be sent to your email
-    backordered_info: Backordered
-    backordered_confirm_info: Selected item is backordered so expect delays. Are you sure you want to order it?
-    payment_type: Payment type
+      total: ! 'Total de la Orden:'
+    order_success: Se ha realizado la orden satisfactoriamente
+    order_success_explain: La información de su orden le será enviada por correo electrónico
+    backordered_info: En espera
+    backordered_confirm_info: El elemento seleccionado está en espera así que espere demora. ¿Está seguro de que quiere ordenarlo?
+    payment_type: Tipo de pago
     pdp:
-      checkout: Checkout
-      description: Description
-      details: Details
-      products_included_in_promotion: Products included in the promotion
-      quantity: Quantity
-      view_cart: View cart
-      you_may_also_like: You may also like
-    pending_sale: Pending Sale
-    please_enter_reasonable_quantity: Please enter a reasonable quantity.
+      checkout: Pagar
+      description: Descripción
+      details: Detalles
+      products_included_in_promotion: Productos incluídos en la promoción
+      quantity: Cantidad
+      view_cart: Ver carrito
+      you_may_also_like: También te podría gustar
+    pending_sale: Venta Pendiente
+    please_enter_reasonable_quantity: Por favon entre una cantidad razonable.
     plp:
-      best_selling: BEST SELLING
-      clear_all: CLEAR ALL
-      collection: COLLECTION
+      best_selling: MÁS VENDIDO
+      clear_all: LIMPIAR TODO
+      collection: COLECCIÓN
       color: COLOR
-      done: DONE
-      default: DEFAULT
-      filter_by: FILTER BY
-      home: Home
-      newest_first: NEWEST FIRST
-      no_results: No results
-      no_results_found: No results found
-      not_found_filters1: We couldn’t find a match for these filters.
-      not_found_filters2: Please try another choose.
-      not_found_text1: We couldn’t find products for '%{keywords}'.
-      not_found_text2: Please try another search.
-      price: price
-      price_high_to_low: PRICE (HIGH - LOW)
-      price_low_to_high: PRICE (LOW - HIGH)
-      result: RESULT
-      results_for: RESULTS FOR
-      size: SIZE
-      sort_by: SORT BY
-      top_sellers: TOP SELLERS
-      type: TYPE
-    preview_product: Preview Product
-    promotionable: Promotable
-    promotion_cloned: Promotion has been cloned
-    promotion_not_cloned: "Promotion has not been cloned. Reason: %{error}"
-    promotion_category: Promotion Category
+      done: HECHO
+      default: POR DEFECTO
+      filter_by: FILTRAR POR
+      home: Inicio
+      newest_first: NUEVOS PRIMERO
+      no_results: No hay resultados
+      no_results_found: No se encontraron resultados
+      not_found_filters1: No pudimos encontrar coincidencias para los filtros definidos.
+      not_found_filters2: Por favor intente otra elección.
+      not_found_text1: No pudimos encontrar productos para '%{keywords}'.
+      not_found_text2: Por favor intente otra búsqueda.
+      price: precio
+      price_high_to_low: PRECIO (ALTO - BAJO)
+      price_low_to_high: PRECIO (BAJO - ALTO)
+      result: RESULTADO
+      results_for: RESULTADOS PARA
+      size: TAMAÑO
+      sort_by: ORDENAR POR
+      top_sellers: MEJORES VENDEDORES
+      type: TIPO
+    preview_product: Previsualizar Producto
+    promotionable: Promocionable
+    promotion_cloned: La promoción ha sido clonada
+    promotion_not_cloned: "La promoción no ha sido clonada. Motivo: %{error}"
+    promotion_category: Categoría de Promoción
     promotion_rule_types:
       country:
-        description: Order is shipped to proper (or default) country
-        name: Country
-    promotion_uses: Promotion uses
-    purchased_quantity: Purchased Quantity
-    reference_contains: Reference Contains
+        description: La orden ha sido enviada al país apropiado (o por defecto)
+        name: País
+    promotion_uses: Usos de promoción
+    purchased_quantity: Cantidad comprada
+    reference_contains: Referencia Contiene
     required: '*'
-    required_fields: required fields
-    resellable: Resellable
-    returns: Returns
+    required_fields: campos requeridos
+    resellable: Revendible
+    returns: Devoluciones
     return_authorization_states:
-      authorized: Authorized
-      canceled: Canceled
-    return_authorization_canceled: Return authorization canceled
-    return_item_order_not_completed: Return item's order must be completed
+      authorized: Autorizado
+      canceled: Cancelado
+    return_authorization_canceled: Autorización de devolución candelada
+    return_item_order_not_completed: La orden de devolución de elementos tiene que ser completada
     reimbursement_mailer:
       reimbursement_email:
-        thanks: Thank you for your business.
-    role_id: Role ID
-    seo_title: SEO title
+        thanks: Gracias por sus negocios.
+    role_id: ID del rol
+    seo_title: Título SEO
     shipment_mailer:
       shipped_email:
-        shipping_method: "Shipping method: %{shipping_method}"
-    show_discontinued: Show Discontinued
-    sign_up: Sign Up
-    states: States
-    stock_transfer_name: Stock Transfer
+        shipping_method: "Método de envío: %{shipping_method}"
+    show_discontinued: Mostrar descontinuados
+    sign_up: Registrarse
+    states: Estados
+    stock_transfer_name: Transferencias de Existencia
     stock_transfer:
       errors:
-        must_have_variant: You must add atleast one variant.
+        must_have_variant: Tiene que añadir al menos una variante.
     store_errors:
-      unable_to_create: Unable to create store.
-      unable_to_update: Unable to update store.
-      unable_to_delete: Unable to delete store.
-    store_credit_name: Store Credit
+      unable_to_create: No se puede crear la tienda.
+      unable_to_update: No se puede actualizar la tienda.
+      unable_to_delete: No se puede eliminar la tienda.
+    store_credit_name: Crédito de Tienda
     store_credit:
-      credit: "Credit"
-      authorized: "Authorized"
-      captured: "Used"
-      allocated: "Added"
-      apply: Apply
-      remove: Remove
-      applicable_amount: "<strong>%{amount}</strong> in store credit will be applied to this order."
-      available_amount: "You have <strong>%{amount}</strong> in Store Credit available!"
-      remaining_amount: "You have <strong>%{amount}</strong> remaining in your account's Store Credit."
-      additional_payment_needed: Select another payment method for the remaining <strong>%{amount}</strong>.
+      credit: Crédito
+      authorized: Autorizado
+      captured: Usado
+      allocated: Añadido
+      apply: Aplicar
+      remove: Eliminar
+      applicable_amount: "<strong>%{amount}</strong> en crédito de tienda será aplicado a esta orden."
+      available_amount: "Tienes <strong>%{amount}</strong> en Crédito de Tienda disponible!"
+      remaining_amount: "Tienes <strong>%{amount}</strong> restante en el Crédito de Tienda de tu cuenta."
+      additional_payment_needed: Seleccione otro mñetodo de para los restantes <strong>%{amount}</strong>.
       errors:
-        cannot_change_used_store_credit: You cannot change a store credit that has already been used
-        unable_to_create: Unable to create store credit
-        unable_to_delete: Unable to delete store credit
-        unable_to_fund: Unable to pay for order using store credits
-        unable_to_update: Unable to update store credit
-    store_credits: Store Credits
-    store_credit_categories: Store Credit Categories
+        cannot_change_used_store_credit:  No puedes cambiar un crédito de tienda que actualmente ha sido utilizado
+        unable_to_create: No se puede crear crédito de tienda
+        unable_to_delete: No se puede eliminar crédito de tienda
+        unable_to_fund: No se puede pagar por la orden utilizando crédito de tienda
+        unable_to_update: No se puede actializar crédito de tienda
+    store_credits: Créditos de Tienda
+    store_credit_categories: Categorías de Crédito de Tienda
     store_credit_payment_method:
-      unable_to_void: "Unable to void code: %{auth_code}"
-      unable_to_credit: "Unable to credit code: %{auth_code}"
-      successful_action: "Successful store credit %{action}"
-      unable_to_find: "Could not find store credit"
-      insufficient_funds: "Store credit amount remaining is not sufficient"
-      currency_mismatch: "Store credit currency does not match order currency"
-      insufficient_authorized_amount: "Unable to capture more than authorized amount"
-      unable_to_find_for_action: "Could not find store credit for auth code: %{auth_code} for action: %{action}"
-      user_has_no_store_credits: "User does not have any available store credit"
-      select_one_store_credit: "Select store credit to go towards remaining balance"
-    store_not_set_as_default: Couldn't set store %{store} as a default store
-    store_set_as_default: Store %{store} is now a default store
-    taxon_missing_alt: Category banner description
+      unable_to_void: "No se puede anularo el código: %{auth_code}"
+      unable_to_credit: "No se puede acreditar el código: %{auth_code}"
+      successful_action: Crédito de tienda %{action} satisfactorio
+      unable_to_find: No se pudo encontrar crédito de tienda
+      insufficient_funds: La cantidad de crédito de tienda restante no es suficiente
+      currency_mismatch: La moneda del crédito de tienda no corresponde con la moneda de la orden
+      insufficient_authorized_amount: No se puede capturar más de la cantidad autorizada
+      unable_to_find_for_action: "No se puede encontrar crédito de tienda para el código de autenticación: %{auth_code} para la acción: %{action}"
+      user_has_no_store_credits: El usuario no tiene ningún credito de tienda disponible
+      select_one_store_credit: Seleccione crédito de tienda para ir hacia el balance restante
+    store_not_set_as_default: No se pudo definit %{store} como tienda por defecto
+    store_set_as_default: La tienda %{store} es ahora la tienda por defecto
+    taxon_missing_alt: Descripción del banner de categoría
     url: URL
-    use_existing_cc: Use an existing card on file
-    use_new_cc_or_payment_method: Use a new card / payment method
-    used: Used
+    use_existing_cc: Utilizar una tarjera en archivo
+    use_new_cc_or_payment_method: Utilizar una nueva tarjeta  / método de pago
+    used: Usado
