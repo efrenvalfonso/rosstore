@@ -174,10 +174,10 @@ es:
           cart: Carrito
         return_authorization:
           product: Producto
-        user:
-          store_credits: Créditos de Tienda
-          no_store_credit: El usuario no tiene Crédito de Tienda disponible.
-          available_store_credit: EL usuario tiene %{amount} en Crédito de Tienda disponible.
+      user:
+        store_credits: Créditos de Tienda
+        no_store_credit: El usuario no tiene Crédito de Tienda disponible.
+        available_store_credit: EL usuario tiene %{amount} en Crédito de Tienda disponible.
     all_rights_reserved: Todos los derechos reservados
     already_have_account: Tiene una cuenta?
     availability: disponibilidad
